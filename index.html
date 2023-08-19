@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signal Sonore</title>
+</head>
+
+<body>
+
+    <button id="playSoundButton">Jouer le Signal Sonore</button>
+
+    <script>
+        document.getElementById("playSoundButton").addEventListener("click", function () {
+            var audio = new Audio("mixkit-industry-alarm-tone-2979.wav"); // Remplacez le chemin par le chemin de votre fichier audio
+            audio.play();
+        });
+    </script>
+
+</body>
+
+</html>
